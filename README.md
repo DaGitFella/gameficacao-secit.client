@@ -67,5 +67,3 @@ O projeto visa integrar a gamificação nas atividades do evento **Secit**, cria
 
 🎉 **Secit Gamification Project** - Transformando aprendizado em diversão!
 ```
-
-Esse README foi pensado para ser informativo e ao mesmo tempo engajador, destacando as principais características do projeto de gamificação para o evento Secit. Ele celebra as contribuições da equipe e orienta os desenvolvedores que desejam colaborar.
