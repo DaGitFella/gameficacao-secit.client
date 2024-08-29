@@ -31,21 +31,21 @@ O projeto visa integrar a gamificação nas atividades do evento **Secit**, cria
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/DaGitFella/gameficacao-secit.client
    ```
-2. Navegue até o diretório do projeto:
+3. Navegue até o diretório do projeto:
    ```bash
    cd gameficacao-secit.client
    ```
-3. Instale as dependências:
+4. Instale as dependências:
    ```bash
    npm install
    ```
-4. Inicie o servidor:
+5. Inicie o servidor:
    ```bash
    ng serve
    ```
-5. Acesse a aplicação:
+6. Acesse a aplicação:
    Abra seu navegador e vá para `http://localhost:4200`
 
 ## 📈 Roadmap
