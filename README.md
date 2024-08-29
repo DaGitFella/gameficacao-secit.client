@@ -1,7 +1,8 @@
 ```markdown
-#  🎮 Secit Gamefication Project
+````
+# 🎮 Secit Gamefication Project
 
-Bem-vindo ao projeto de gamificação do **Secit**! 🚀 Este projeto foi criado para transformar o evento **Secit** em uma experiência interativa e envolvente, onde participantes podem se divertir, competir e aprender ao mesmo tempo. 
+**Bem-vindo ao projeto de gamificação do Secit! 🚀 Este projeto foi criado para transformar o evento Secit em uma experiência interativa e envolvente, onde participantes podem se divertir, competir e aprender ao mesmo tempo.**
 
 ## 📜 Sobre o Projeto
 
@@ -28,30 +29,30 @@ O projeto visa integrar a gamificação nas atividades do evento **Secit**, cria
 4. **Design**: Interface visual criada para maximizar a interação e o engajamento.
 
 ## 🚀 Como Executar o Projeto
-
+   
 1. Clone este repositório:
    ```bash
    git clone https://github.com/DaGitFella/gameficacao-secit.client
    ```
-3. Navegue até o diretório do projeto:
+2. Navegue até o diretório do projeto:
    ```bash
-   cd gameficacao-secit.client
+   cd secit-gamification
    ```
-4. Instale as dependências:
+3. Instale as dependências:
    ```bash
    npm install
    ```
-5. Inicie o servidor:
+4. Inicie o servidor:
    ```bash
    ng serve
    ```
-6. Acesse a aplicação:
+5. Acesse a aplicação:
    Abra seu navegador e vá para `http://localhost:4200`
 
 ## 📈 Roadmap
 
 - [x] Protótipo Inicial
-- [x] Implementação da Lógica de Pontuação
+- [ ] Implementação da Lógica de Pontuação
 - [ ] Integração com o Banco de Dados
 - [ ] Testes e Validação
 - [ ] Lançamento Oficial
@@ -61,14 +62,6 @@ O projeto visa integrar a gamificação nas atividades do evento **Secit**, cria
 - **Lucas Henrique** - Designer
 - **Isaque Victor** - Backend & Banco de Dados
 - **Davi Lucas** - Frontend & Backend
-
-## 🤝 Contribuições
-
-Contribuições são sempre bem-vindas! Sinta-se à vontade para enviar pull requests, relatar bugs ou sugerir novas funcionalidades.
-
-## 📄 Licença
-
-Este projeto é licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
