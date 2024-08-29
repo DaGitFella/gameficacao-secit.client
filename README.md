@@ -16,10 +16,9 @@ O projeto visa atualizar o sistema de gamificação do evento **Secit**, isso se
 
 ## 🌟 Funcionalidades
 
-- **Desafios Diários:** Completar atividades e ganhar pontos!
-- **Ranking ao Vivo:** Veja sua posição em tempo real e compita com outros participantes.
-- **Recompensas Exclusivas:** Troque seus pontos por prêmios e benefícios.
-- **Feedback Instantâneo:** Saiba onde você está arrasando e onde pode melhorar.
+- **Visualização de selos:** Veja os selos ganhos no evento!
+- **Brindes:** Veja as recompensas disponíveis para resgate.
+- **Atividades:** Permite o gerenciamento de atividades pelos administradores.
 
 ## 🧩 Estrutura do Projeto
 
