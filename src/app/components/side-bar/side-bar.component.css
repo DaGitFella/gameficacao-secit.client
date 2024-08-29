@@ -31,3 +31,15 @@
   margin-left: 250px;
   width: calc(100% - 250px);
 }
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+}
