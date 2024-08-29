@@ -1,5 +1,5 @@
 ```markdown
-# 🎮 Secit Gamefication Project
+#🎮 Secit Gamefication Project
 
 Bem-vindo ao projeto de gamificação do **Secit**! 🚀 Este projeto foi criado para transformar o evento **Secit** em uma experiência interativa e envolvente, onde participantes podem se divertir, competir e aprender ao mesmo tempo. 
 
