@@ -6,7 +6,7 @@
 
 ## 📜 Sobre o Projeto
 
-O projeto visa integrar a gamificação nas atividades do evento **Secit**, criando desafios, metas e recompensas que incentivam a participação ativa e o aprendizado contínuo dos participantes. Usando a tecnologia **Angular** para criar uma interface fluida e intuitiva, este projeto é a fusão perfeita de design, desenvolvimento e inovação.
+O projeto visa atualizar o sistema de gamificação do evento **Secit**, isso será feito através de uma aplicação web utilizando angular como cliente e django rest como api.
 
 ## 🛠️ Tecnologias Utilizadas
 
