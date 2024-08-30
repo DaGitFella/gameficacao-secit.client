@@ -11,6 +11,10 @@
   font-size: 2rem ;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
 .navbar-nav {
   gap: 73px;
 }
