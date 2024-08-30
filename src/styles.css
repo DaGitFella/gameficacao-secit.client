@@ -1,0 +1,11 @@
+:root {
+  --header-background-color: #223047;
+  --primary-color: #FFF;
+  --green: #2BB674;
+  --background-color: #D8DED3;
+}
+
+body {
+  background: var(--background-color, #D8DED3);
+  font-family: "Istok Web", sans-serif;
+}
