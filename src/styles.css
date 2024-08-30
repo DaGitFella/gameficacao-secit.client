@@ -8,4 +8,21 @@
 body {
   background: var(--background-color, #D8DED3);
   font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  border: 4px solid #070F27;
+  border-radius: 22px;
+  padding: 5px 15px;
+  letter-spacing: clamp(1.5px, 0.2vw, 3px);
+  font-size: clamp(1rem, 1.5vw, 1.0625rem);
+  cursor: pointer;
+}
+
+.btn a {
+  text-decoration: none;
+  color: var(--primary-color);
 }
