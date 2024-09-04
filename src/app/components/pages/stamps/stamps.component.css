@@ -1,0 +1,18 @@
+.add-stamp {
+  gap: 40px;
+}
+
+.stamp-background {
+  background: #CCCFC7;
+  min-width: 158px;
+  min-height: 158px;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.file-input-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+

@@ -9,6 +9,11 @@ body {
   background: var(--background-color, #D8DED3);
   font-family: "Istok Web", sans-serif;
   font-weight: 700;
+  height: 100vh;
+}
+
+section {
+  margin-left: clamp(20px, 10vw, 94px);
 }
 
 .btn {
@@ -26,11 +31,13 @@ body {
 .btn:hover {
   background: #FFFFFF !important;
   border: 4px solid #569FFD;
+  transition: ease-in 0.3s;
 }
 
 .btn .change-color {
   text-decoration: none;
   color: var(--primary-color);
+  transition: ease-in 0.3s;
 }
 
 .btn:hover>.change-color {
@@ -57,4 +64,20 @@ body {
   color: #070F27;
   letter-spacing: 3.84px;
   font-weight: 700;
+}
+
+.buttons {
+  margin-top: 66px;
+  gap: 66px;
+}
+
+.add-btn {
+  border: none;
+  background: none;
+}
+
+.title-spacing {
+  letter-spacing: 8.96px;
+  color: #070F27;
+  font-size: 56px;
 }

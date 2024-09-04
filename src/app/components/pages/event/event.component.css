@@ -8,9 +8,6 @@
 }
 
 /*unsorted*/
-section {
-  margin-left: clamp(20px, 10vw, 94px);
-}
 .col-md-4 {
   gap: 19px;
   min-height: 307px;
