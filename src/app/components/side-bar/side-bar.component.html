@@ -1,16 +1,16 @@
 <div class="d-flex">
   <div class="sidebar position-fixed">
     <ul class="list-unstyled d-flex flex-column fw-bolder" id="add-event">
-      <li *ngFor="let item of navigateItems | keyvalue: originalOrder; let i = index" [class.active]="selectedNavigateIndex === i"
-          (click)="selectedItem(i, false)" routerLink="{{ item.value }}" class="btn">
+      <li *ngFor="let item of navigateItems | keyvalue: originalOrder"
+          [routerLink]="[item.value]" routerLinkActive="active" class="btn">
         <a class="fw-bolder change-color">{{ item.key }}</a>
         <i class="bi bi-arrow-right-short change-color fw-bolder d-flex align-items-center"></i>
       </li>
     </ul>
     <ul class="list-unstyled d-flex flex-column fw-bolder" id="visualize">
-      <li *ngFor="let item of visualizeItems; let i = index" [class.active]="selectedVisualizeIndex === i"
-          (click)="selectedItem(i, true)" class="btn my-btn">
-        <a class="fw-bolder change-color">{{ item }}</a>
+      <li *ngFor="let item of visualizeItems | keyvalue: originalOrder"
+          [routerLink]=[item.value] routerLinkActive="active" class="btn my-btn">
+        <a class="fw-bolder change-color">{{ item.key }}</a>
         <i class="bi bi-arrow-right-short fw-bolder change-color d-flex align-items-center"></i>
       </li>
     </ul>

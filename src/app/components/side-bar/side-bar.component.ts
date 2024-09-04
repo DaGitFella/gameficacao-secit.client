@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {RouterLink, RouterOutlet} from "@angular/router";
+import {RouterLink, RouterLinkActive, RouterOutlet} from "@angular/router";
 import {KeyValuePipe, NgForOf} from "@angular/common";
 
 @Component({
@@ -9,12 +9,14 @@ import {KeyValuePipe, NgForOf} from "@angular/common";
     RouterOutlet,
     RouterLink,
     NgForOf,
-    KeyValuePipe
+    KeyValuePipe,
+    RouterLinkActive
   ],
   templateUrl: './side-bar.component.html',
   styleUrl: './side-bar.component.css'
 })
 export class SideBarComponent {
+
   navigateItems =
     {
       'Evento': "/event",
@@ -25,21 +27,13 @@ export class SideBarComponent {
     }
   ;
 
-  visualizeItems = ["Pré-visualizar", "Enviar"];
-  selectedNavigateIndex: number | null = null;
-  selectedVisualizeIndex: number | null = null;
-
-  originalOrder = (a: any, b: any): number => {
-    return 0;  // Returning 0 maintains the original order
+  visualizeItems = {
+    "Pré-visualizar": "/visualize",
+   "Enviar": "/send"
   };
 
-  selectedItem(index: number, isVisualize: boolean = false): void {
-    if (isVisualize) {
-      this.selectedVisualizeIndex = index;
-      this.selectedNavigateIndex = null;
-    } else {
-      this.selectedNavigateIndex = index;
-      this.selectedVisualizeIndex = null;
-    }
-  }
+  originalOrder = (a: any, b: any): number => {
+    return 0;
+  };
+
 }
