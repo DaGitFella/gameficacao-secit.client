@@ -1,10 +1,12 @@
 .navbar {
-  border-radius: 0px 0px 10px 10px;
-  background: var(--header-background-color, #223047);
+  background: var(--background-color);
+  box-shadow: 0px 8px 22.6px 0px rgba(0, 0, 0, 0.25);
+  height: 10.13%;
 }
 
-.container-fluid {
-  width: 85% !important;
+.logo {
+  width: 3.325rem;
+  margin-left: 2.813rem;
 }
 
 .navbar .navbar-brand {
@@ -15,13 +17,28 @@
   border: none;
 }
 
-.navbar-nav {
-  gap: 73px;
+.navbar-nav, .logo-nav {
+  gap: 50px;
 }
 
 .navbar a {
   color: var(--primary-color);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.linear-background-container {
+  width: 30%;
+}
+
+.linear-background {
+  width: 39.37%;
+  background: linear-gradient(90deg, #00FF86 17.5%, #0095FF 100%);
+  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.little {
+  width: 10%;
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 }
 
 @media (min-width: 768px) {

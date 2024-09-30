@@ -1,8 +1,7 @@
 :root {
-  --header-background-color: #223047;
-  --primary-color: #FFF;
+  --background-color: #F8FADA;
+  --primary-color: #0A1C16;
   --green: #2BB674;
-  --background-color: #D8DED3;
 }
 
 body {

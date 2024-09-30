@@ -1,15 +1,23 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg position-relative">
   <div class="container-fluid fw-bolder">
-    <a class="navbar-brand" routerLink="/">logo</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span><img src="botao_legal_nav.png" alt=""> </span>
-    </button>
-    <div class="navbar-nav">
-      <a class="nav-link">Sobre</a>
-      <a class="nav-link">Atividades</a>
-      <a class="nav-link">Pontos</a>
-      <a class="nav-link">Perfil</a>
+    <div class="d-flex align-items-center logo-nav">
+      <a class="navbar-brand" routerLink="/">
+      <img src="logo.png" class="logo" alt="">
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span><img src="botao_legal_nav.png" alt=""> </span>
+      </button>
+      <ul class="navbar-nav">
+        <li><a class="nav-link">Sobre</a></li>
+        <li><a class="nav-link">Atividades</a></li>
+        <li><a class="nav-link">Pontos</a></li>
+        <li><a class="nav-link">Perfil</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="linear-background-container d-flex position-absolute end-0 h-100">
+    <img src="background-1 (1).png" alt="">
+    <img src="background-1.png" alt="">
   </div>
 </nav>
