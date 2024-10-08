@@ -27,13 +27,11 @@
 }
 
 .linear-background-container {
-  width: 30%;
+  width: 50%;
 }
 
-.linear-background {
-  width: 39.37%;
-  background: linear-gradient(90deg, #00FF86 17.5%, #0095FF 100%);
-  clip-path: polygon(15% 0%, 100% 0%, 100% 100%, 0% 100%);
+.linear-background-container .background-2{
+    margin-right: -80px;
 }
 
 .little {

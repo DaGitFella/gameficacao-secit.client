@@ -9,15 +9,18 @@
         <span><img src="botao_legal_nav.png" alt=""> </span>
       </button>
       <ul class="navbar-nav">
-        <li><a class="nav-link">Sobre</a></li>
-        <li><a class="nav-link">Atividades</a></li>
-        <li><a class="nav-link">Pontos</a></li>
-        <li><a class="nav-link">Perfil</a></li>
+        <li *ngFor="let item of navigateItems | keyvalue: originalOrder"
+            [routerLink]="[item.value]" routerLinkActive="active">
+          <a class="fw-bolder nav-link">{{ item.key }}</a>
+        </li>
       </ul>
     </div>
   </div>
-  <div class="linear-background-container d-flex position-absolute end-0 h-100">
-    <img src="background-1 (1).png" alt="">
+  <div class="linear-background-container d-flex justify-content-end position-absolute end-0 h-100">
+    <img src="background-2.png" class="background-2" alt="">
     <img src="background-1.png" alt="">
   </div>
+  <button>
+    <a ></a>
+  </button>
 </nav>

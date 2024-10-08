@@ -10,11 +10,11 @@ import {SendComponent} from "./components/pages/send/send.component";
 
 export const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'event', component: EventComponent},
-  {path: 'stamps', component: StampsComponent},
-  {path: 'reward', component: RewardComponent},
-  {path: 'activities', component: ActivitiesComponent},
-  {path: 'achievement', component: AchievementComponent},
+  {path: 'create_event', component: EventComponent},
+  {path: 'create_event/stamps', component: StampsComponent},
+  {path: 'create/event/reward', component: RewardComponent},
+  {path: 'create_event/activities', component: ActivitiesComponent},
+  {path: 'create_event/achievement', component: AchievementComponent},
   {path: 'visualize', component: VisualizeComponent},
   {path: 'send', component: SendComponent},
 ];

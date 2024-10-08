@@ -19,11 +19,11 @@ export class SideBarComponent {
 
   navigateItems =
     {
-      'Evento': "/event",
-      'Selos': "/stamps",
-      'Conquista': "/reward",
-      'Recompensas': "/achievement",
-      'Atividades': "/activities"
+      'Evento': "create_event",
+      'Selos': "create_event/stamps",
+      'Conquista': "create_event/reward",
+      'Recompensas': "create_event/achievement",
+      'Atividades': "create_event/activities"
     }
   ;
 

@@ -1,15 +1,28 @@
 import { Component } from '@angular/core';
-import {RouterLink} from "@angular/router";
+import {RouterLink, RouterLinkActive} from "@angular/router";
+import {KeyValuePipe, NgForOf} from "@angular/common";
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [
-    RouterLink
+    RouterLink,
+    KeyValuePipe,
+    NgForOf,
+    RouterLinkActive
   ],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
+  navigateItems = {
+    'Inicio': '/home',
+    'Eventos': '/events',
+    'Criar': 'create_event',
+    'Selos': '/stamps'
+  }
 
+  originalOrder = (a: any, b: any): number => {
+    return 0;
+  };
 }
