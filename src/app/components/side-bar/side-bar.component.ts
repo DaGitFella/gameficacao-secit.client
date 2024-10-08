@@ -19,11 +19,11 @@ export class SideBarComponent {
 
   navigateItems =
     {
-      'Evento': "create_event",
-      'Selos': "create_event/stamps",
-      'Conquista': "create_event/reward",
-      'Recompensas': "create_event/achievement",
-      'Atividades': "create_event/activities"
+      'bi-house-fill': "create_event",
+      'bi-image-alt': "create_event/stamps",
+      'bi-star-fill': "create_event/reward",
+      'bi-trophy-fill': "create_event/achievement",
+      'bi-book-half': "create_event/activities"
     }
   ;
 
