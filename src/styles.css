@@ -3,7 +3,9 @@
   --forms-background: #FFF;
   --text-primary-color: #0A1C16;
   --text-secondary-color: #00140A;
+  --text-light-color: rgba(10, 28, 22, 0.50);;
   --green: #00FF86;
+  --border-color: #0095FF;
 }
 
 * {
@@ -46,12 +48,14 @@ section {
   font-size: 68px;
   letter-spacing: 11.68px;
   margin-top: 22px;
+  font-weight: 600;
   margin-bottom: 40px;
+  font-family: 'Cinzel';
 }
 
 .event-input {
   border-radius: 22px;
-  border: 4px solid #070F27;
+  border: 2px solid var(--border-color);
   background: #EAEBEA;
   padding: 5px 15px;
   font-size: 18px;
@@ -59,7 +63,7 @@ section {
 }
 
 .event-input::placeholder, .form-control::placeholder {
-  color: #070F27;
+  color: var(--text-light-color);
   letter-spacing: 3.84px;
   font-weight: 700;
 }
@@ -76,6 +80,5 @@ section {
 
 .title-spacing {
   letter-spacing: 8.96px;
-  color: #070F27;
   font-size: 56px;
 }
