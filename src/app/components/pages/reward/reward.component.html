@@ -7,19 +7,19 @@
   <div class="row">
     <div class="col d-flex flex-column">
       <label for="name" class="fw-bolder description-label info-spacing">Nome</label>
-      <textarea name="name" class="event-input" placeholder="escreva aqui..."></textarea>
+      <input id='name' name="name" class="event-input" placeholder="escreva aqui...">
     </div>
   </div>
   <div class="row g-5 mt-2">
     <div class="col-md-4 d-flex justify-content-start">
       <div class="d-flex flex-column">
         <h3 class="fw-bolder title-spacing text-center">Selo</h3>
-        <button class="add-btn">
-          <img src="bola_linda.svg" alt="" class="beautiful_ball">
+        <button class="add-btn-ball">
+          <img src="add_ball.svg" class="ball" alt="">
         </button>
       </div>
     </div>
-    <div class="col-md d-flex align-items-end justify-content-between">
+    <div class="col-md d-flex align-items-start justify-content-between">
       <div class="d-flex flex-column justify-content-end">
         <h3 class="fw-bolder info-spacing text-center">selos <br> necessários</h3>
         <input type="number" placeholder="0"
@@ -27,8 +27,17 @@
       </div>
       <div class="d-flex flex-column justify-content-end">
         <h3 class="fw-bolder info-spacing text-center">Cor HEX</h3>
-        <input type="text" placeholder="FFFFF"
-               class="form-control event-input justify-content-center text-spacing fw-bolder text-center">
+        <div class="d-flex flex-column gap-3">
+          <input type="text" placeholder="FFFFF"
+                    class="form-control event-input justify-content-center text-spacing fw-bolder text-center">
+          <input type="text"
+                 class="form-control event-input color-input justify-content-center text-spacing fw-bolder text-center">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col d-flex justify-content-end">
+        <button class="add-btn">Adicionar conquista +</button>
       </div>
     </div>
   </div>

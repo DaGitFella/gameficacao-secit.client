@@ -3,7 +3,7 @@
   --forms-background: #FFF;
   --text-primary-color: #0A1C16;
   --text-secondary-color: #00140A;
-  --text-light-color: rgba(10, 28, 22, 0.50);;
+  --text-light-color: rgba(10, 28, 22, 0.50);
   --green: #00FF86;
   --border-color: #0095FF;
 }
@@ -19,8 +19,14 @@ body {
   height: 100vh;
 }
 
-section {
-  height: 100vh;
+.event-navigation-menu {
+  position: fixed;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.contain {
+  max-width: 960px;
 }
 
 .btn {
@@ -36,7 +42,7 @@ section {
 }
 
 .btn:hover {
-  border: 2px solid var(--green);
+  border: 1px solid var(--green);
 }
 
 .btn a{
@@ -50,7 +56,7 @@ section {
   margin-top: 22px;
   font-weight: 600;
   margin-bottom: 40px;
-  font-family: 'Cinzel';
+  font-family: 'Cinzel', serif;
 }
 
 .event-input {
@@ -60,6 +66,10 @@ section {
   padding: 5px 15px;
   font-size: 18px;
   margin-bottom: 50px;
+}
+
+.color-input {
+  border: 2px solid #00140A;
 }
 
 .event-input::placeholder, .form-control::placeholder {
@@ -73,9 +83,29 @@ section {
   gap: 66px;
 }
 
-.add-btn {
+.add-btn,
+.add-btn-ball{
   border: none;
   background: none;
+}
+
+.add-btn {
+  border-radius: 46px;
+  background: var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+  letter-spacing: 4.16px;
+  padding: 10px 18px;
+  margin: 30px 0 60px 0;
+  transition: ease-in-out .3s;
+}
+
+.add-btn:hover {
+  color: var(--text-primary-color);
 }
 
 .title-spacing {
