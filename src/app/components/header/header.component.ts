@@ -17,7 +17,7 @@ import {KeyValuePipe, NgForOf} from "@angular/common";
 export class HeaderComponent {
   navigateItems = {
     'Inicio': '/home',
-    'Eventos': 'events',
+    'Eventos': 'visualize_events',
     'Criar': 'create_event',
     'Selos': '/stamps'
   }

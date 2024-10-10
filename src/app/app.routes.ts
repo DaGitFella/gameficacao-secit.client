@@ -5,8 +5,7 @@ import {StampsComponent} from "./components/pages/stamps/stamps.component";
 import {RewardComponent} from "./components/pages/reward/reward.component";
 import {ActivitiesComponent} from "./components/pages/activities/activities.component";
 import {AchievementComponent} from "./components/pages/achievement/achievement.component";
-import {VisualizeComponent} from "./components/pages/visualize/visualize.component";
-import {SendComponent} from "./components/pages/send/send.component";
+import {VisualizeEventComponent} from "./components/pages/visualize-event/visualize-event.component";
 
 export const routes: Routes = [
   {path: '', component: HomeComponent},
@@ -15,6 +14,5 @@ export const routes: Routes = [
   {path: 'create_event/reward', component: RewardComponent},
   {path: 'create_event/activities', component: ActivitiesComponent},
   {path: 'create_event/achievement', component: AchievementComponent},
-  {path: 'visualize', component: VisualizeComponent},
-  {path: 'send', component: SendComponent},
+  {path: 'visualize_events', component: VisualizeEventComponent}
 ];

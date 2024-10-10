@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SendComponent } from './send.component';
+import { VisualizeEventComponent } from './visualize-event.component';
 
-describe('SendComponent', () => {
-  let component: SendComponent;
-  let fixture: ComponentFixture<SendComponent>;
+describe('VisualizeEventComponent', () => {
+  let component: VisualizeEventComponent;
+  let fixture: ComponentFixture<VisualizeEventComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SendComponent]
+      imports: [VisualizeEventComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(SendComponent);
+    fixture = TestBed.createComponent(VisualizeEventComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

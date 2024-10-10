@@ -1,0 +1,15 @@
+.event-input::placeholder {
+  font-size: 16px;
+  letter-spacing: 3.84px;
+  color: var(--text-primary-color);
+}
+
+.event-input {
+  padding: 0 20px;
+}
+
+.event-card-title {
+  border-radius: 22px 22px 0px 0px;
+  background-color: #070F27;
+  color: white;
+}
