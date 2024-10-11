@@ -1,7 +1,7 @@
 .navbar {
   background: var(--background-color);
   box-shadow: 0 8px 22.6px 0 rgba(0, 0, 0, 0.25);
-  height: 10.13%;
+  height: 8vh;
 }
 
 .logo {
@@ -9,8 +9,8 @@
   margin-left: 2.813rem;
 }
 
-.navbar .navbar-brand {
-  font-size: 2rem ;
+.navbar a {
+  font-size: calc(1.2rem + 0.3vw) !important;
 }
 
 .navbar-toggler {
@@ -32,7 +32,6 @@
 }
 
 .navbar-nav .diamond {
-  transform: rotate(45deg);
   background-color: #000;
 }
 
@@ -41,8 +40,9 @@
 }
 
 .navbar-nav li.active .diamond {
-  width: 10px;
+  width: 15px;
   height: 10px;
+  border-radius: 50%;
 }
 
 .navbar-nav li.active .line {
@@ -51,7 +51,7 @@
 }
 
 .underline-container {
-  bottom: -20px;
+  bottom: -2.8vh;
 }
 
 .navbar a {
@@ -64,19 +64,18 @@
 }
 
 .linear-background-container .background-2{
-    margin-right: -70px;
+  margin-right: clamp(-9%, -10%, -7%);
 }
 
 .enter-btn {
   margin-right: 67px;
   border-radius: 46px;
   background: #FFF;
+  font-weight: 700;
   border: none;
-  padding: 0 10px 0 10px;
-}
-
-.enter-btn a {
-  letter-spacing: 2.16px;
+  padding: 5px 15px 5px 15px;
+  font-size: calc(1.2rem + 0.3vw) !important;
+  letter-spacing: 4.16px;
 }
 
 @media (min-width: 768px) {

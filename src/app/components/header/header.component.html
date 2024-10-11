@@ -7,7 +7,7 @@
       <ul class="navbar-nav">
         <li *ngFor="let item of navigateItems | keyvalue: originalOrder"
             [routerLink]="[item.value]" routerLinkActive="active" role="button" class="position-relative h-100">
-          <a class="fw-bolder text-decoration-none">{{ item.key }}</a>
+          <a class="fw-bolder text-decoration-none header-link">{{ item.key }}</a>
           <div class="d-flex underline-container justify-content-between align-items-center position-absolute w-100">
             <div class="diamond"></div>
             <div class="line"></div>
@@ -22,6 +22,6 @@
     <img src="background-1.png" alt="">
   </div>
   <button class="z-3 enter-btn d-flex align-items-center">
-    <a href="" class="text-decoration-none fw-bold">Entrar</a>
+    <a href="" class="text-decoration-none">Entrar</a>
   </button>
 </nav>

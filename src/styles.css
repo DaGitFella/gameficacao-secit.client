@@ -12,6 +12,10 @@
   list-style: none;
 }
 
+.container {
+  max-width: 85%;
+}
+
 body {
   background: var(--background-color, #D8DED3);
   font-family: "Istok Web", sans-serif;
